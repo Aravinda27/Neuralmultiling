@@ -1,0 +1,30 @@
+PRINT_FREQ: 200
+VAL_FREQ: 10
+
+CUDNN:
+  BENCHMARK: true
+  DETERMINISTIC: false
+  ENABLED: true
+
+DATASET:
+  DATA_DIR: 'audio_multilinugal_processed'
+  SUB_DIR: 'dev'
+  NUM_WORKERS: 0
+  PARTIAL_N_FRAMES: 600
+  TEST_FILE: 'veri_test_samsungs7_english.txt' 
+
+TRAIN:
+  BATCH_SIZE: 48
+  LR: 0.015
+  LR_MIN: 0.001
+  BETA1: 0.9
+  BETA2: 0.999
+
+  BEGIN_EPOCH: 0
+  END_EPOCH: 201
+
+MODEL:
+  NAME: 'model'
+  NUM_CLASSES: 103
+  LAYERS: 8
+  INIT_CHANNELS: 16
