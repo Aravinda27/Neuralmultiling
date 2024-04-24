@@ -20,6 +20,22 @@ You will need Multilingual Audio-Visual Smartphone (MAVS) database.
 ## Running the code
 - dataprocess: <br>
     python data_preprocess.py /path/to/MAVS
+The output folder should be :<br>
+- feature <br>
+  -dev <br>
+  -test
+- Training and evaluating ResNet-18, ResNet-34 baselines: <br>
+      python train_baseline_verification.py --cfg exps/baseline/resnet18_veri.yaml <br>
+      python train_baseline_verification.py --cfg exps/baseline/resnet34_veri.yaml
+## Architecture Search
+  python search.py --cfg exps/search.yaml
+## Training from scratch for verification:
+  python train_verification.py --cfg exps/scratch/scratch.yaml --text_arch GENOTYPE
+
+## Evaluation
+- Verification:<br>
+    python evaluate_verification.py --cfg exps/scratch/scratch_veri.yaml --load_path /path/to/the/trained/model
+
 
 
 # Results 
@@ -56,6 +72,12 @@ You will need Multilingual Audio-Visual Smartphone (MAVS) database.
     </tr>
   </table>
 </div>
+
+# Access to MAVS database
+ For MAVS database send request to aravindareddy.27@gmail.com <br>
+ Note: Database will be shared only for research and academic purpose.
+
+# Checkpoint coming soon
 
 
 
