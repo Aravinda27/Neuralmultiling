@@ -78,6 +78,11 @@ The output folder should be :<br>
  Note: Database will be shared only for research and academic purpose.
 
 # Checkpoint coming soon
+- searched architecture
+[Download .pt file](https://indianinstituteofscience-my.sharepoint.com/:u:/g/personal/aravindapn_iisc_ac_in/EYPk4lV1yMFLpGgl_4NmuHEBq9ZyJrxOKfFiWPcE7nXDOg?e=VZrOTR)
+
+- evaluation model
+[Download .pt file](https://indianinstituteofscience-my.sharepoint.com/:u:/g/personal/aravindapn_iisc_ac_in/EeAGA2Uw8QtOrW0E8ut15nABiv5KgFTmllRz6RtUeM9MKw?e=XCbpXa)
 
 
 
