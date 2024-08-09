@@ -78,7 +78,7 @@ The output folder should be :<br>
  For MAVS database send request to aravindareddy.27@gmail.com <br>
  Note: Database will be shared only for research and academic purpose.
 
-# Checkpoint coming soon
+# Checkpoints
 - searched architecture
 [Download .pt file](https://indianinstituteofscience-my.sharepoint.com/:u:/g/personal/aravindapn_iisc_ac_in/EYPk4lV1yMFLpGgl_4NmuHEBq9ZyJrxOKfFiWPcE7nXDOg?e=VZrOTR)
 
